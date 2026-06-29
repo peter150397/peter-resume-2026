@@ -1,0 +1,228 @@
+/* Noto Sans TC */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+/* Barlow */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Pacifico */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* Coding Font */
+/* font-family: "JetBrains Mono", monospace; */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import 'tailwindcss';
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 24px;
+    max-width: 1280px;
+}
+
+@custom-variant lowerScreen (@media (max-height: 850px));
+
+@theme {
+    --color-primary-1: #4af626;
+    --color-black: #0d0d0d;
+    --color-gray-90: color-mix(in srgb, #000000 90%, #ffffff 10%);
+    --color-gray-80: color-mix(in srgb, #000000 80%, #ffffff 20%);
+    --color-gray-70: color-mix(in srgb, #000000 70%, #ffffff 30%);
+    --color-gray-60: color-mix(in srgb, #000000 60%, #ffffff 40%);
+    --color-gray-50: color-mix(in srgb, #000000 50%, #ffffff 50%);
+    --color-gray-40: color-mix(in srgb, #000000 40%, #ffffff 60%);
+    --color-gray-30: color-mix(in srgb, #000000 30%, #ffffff 70%);
+    --color-gray-20: color-mix(in srgb, #000000 20%, #ffffff 80%);
+    --color-gray-10: color-mix(in srgb, #000000 10%, #ffffff 90%);
+    --color-white: #ffffff;
+
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-xxl: 1440px;
+
+    --font-weight-100: 100;
+    --font-weight-200: 200;
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+    --font-weight-800: 800;
+    --font-weight-900: 900;
+
+    --font-default: 'Barlow', 'Noto Sans TC', sans-serif;
+    --font-pacifico: 'Pacifico', cursive;
+
+    --animate-scale: scale 1s infinite;
+    @keyframes scale {
+        0%,
+        100% {
+            transform: scale(1);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+        50% {
+            transform: scale(1.05);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+    }
+}
+
+@layer base {
+    :root {
+        --navbar-height: 110px;
+        scroll-behavior: smooth;
+    }
+    @media (max-width: 767px) {
+        :root {
+            --navbar-height: 104px;
+        }
+    }
+    /* html {
+        scroll-padding-top: var(--navbar-height) !important;
+    } */
+
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smooth: never;
+        text-rendering: optimizeLegibility;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active,
+    a:focus,
+    a:focus-visible,
+    a:visited {
+        outline: none;
+    }
+
+    button {
+        background: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+
+    img,
+    button {
+        display: block;
+    }
+
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    h5,
+    .h5,
+    h6,
+    .h6,
+    p,
+    .p,
+    li {
+        @apply font-default text-white;
+    }
+
+    h1,
+    .h1 {
+        @apply md:text-5xl/tight text-4xl/tight font-700 tracking-[2px];
+    }
+
+    h2,
+    .h2 {
+        @apply md:text-4xl/normal text-3xl/normal font-500 tracking-[2px];
+    }
+
+    h3,
+    .h3 {
+        @apply md:text-3xl/normal text-2xl/normal font-500 tracking-[1px];
+    }
+
+    h4,
+    .h4 {
+        @apply md:text-2xl/normal text-xl/normal font-500 tracking-[1px];
+    }
+    h5,
+    .h5 {
+        @apply md:text-xl/normal text-lg/normal font-500 tracking-[1px];
+    }
+    h6,
+    .h6 {
+        @apply md:text-lg/normal text-base/normal font-500 tracking-[1px];
+    }
+
+    p,
+    .p,
+    li {
+        @apply md:text-base/[1.8] text-sm/[1.8] font-400 tracking-[0.5px];
+    }
+}
+
+/* animation */
+@keyframes cursor-effect {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes burger-top-active {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+    }
+    20% {
+        transform: rotate(0deg) translateY(6px);
+    }
+    100% {
+        transform: rotate(-135deg) translateY(6px);
+    }
+}
+@keyframes burger-top-active-reverse {
+    0% {
+        transform: rotate(-135deg) translateY(6px);
+    }
+    80% {
+        transform: rotate(-360deg) translateY(6px);
+    }
+    100% {
+        transform: rotate(-360deg) translateY(0px);
+    }
+}
+
+@keyframes burger-bottom-active {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+    }
+    20% {
+        transform: rotate(0deg) translateY(-6px);
+    }
+    100% {
+        transform: rotate(-225deg) translateY(-6px);
+    }
+}
+@keyframes burger-bottom-active-reverse {
+    0% {
+        transform: rotate(-225deg) translateY(-6px);
+    }
+    80% {
+        transform: rotate(-360deg) translateY(-6px);
+    }
+    100% {
+        transform: rotate(-360deg) translateY(0px);
+    }
+}
