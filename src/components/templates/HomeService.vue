@@ -85,7 +85,7 @@ onMounted(() => {
             trigger: homeServiceFrameEle.value,
             start: (self) => {
                 const selfHeight = self.trigger ? self.trigger.getBoundingClientRect().height : 0;
-                const windowHeight = window.innerHeight;
+                const windowHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;
                 const topPosition = (windowHeight - selfHeight) / 2;
 
                 return `top ${topPosition}`;

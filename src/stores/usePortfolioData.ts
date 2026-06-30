@@ -7,9 +7,9 @@ export const usePortfolioData = defineStore('portfolioData', () => {
         {
             title: '歐可影像',
             id: 'ouqeimage',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-square.png',
+            squareBg: '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-banner.png',
+                bg: '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-banner.png',
                 creationTime: '2024.09',
                 link: {
                     id: 15720366,
@@ -19,12 +19,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-screenshot-6.png',
+                '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-screenshot-1.png',
+                '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-screenshot-2.png',
+                '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-screenshot-3.png',
+                '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-screenshot-4.png',
+                '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-screenshot-5.png',
+                '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-screenshot-6.png',
             ],
             feature: [
                 {
@@ -65,18 +65,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 'UI UX設計',
             ],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-1.jpg',
-                '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-2.jpg',
-                '/peter-resume-2026/src/assets/portfolio/ouqeimage/ouqeimage-3.jpg',
+                '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-1.jpg',
+                '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-2.jpg',
+                '/peter-resume-2026/portfolio/ouqeimage/ouqeimage-3.jpg',
             ],
         },
         // 日鋒有限公司
         {
             title: '日鋒有限公司',
             id: 'jihfeng',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-square.png',
+            squareBg: '/peter-resume-2026/portfolio/jihfeng/jihfeng-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-banner.jpeg',
+                bg: '/peter-resume-2026/portfolio/jihfeng/jihfeng-banner.jpeg',
                 creationTime: '2026.03',
                 link: {
                     id: 11524923,
@@ -86,12 +86,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-screenshot-6.png',
+                '/peter-resume-2026/portfolio/jihfeng/jihfeng-screenshot-1.png',
+                '/peter-resume-2026/portfolio/jihfeng/jihfeng-screenshot-2.png',
+                '/peter-resume-2026/portfolio/jihfeng/jihfeng-screenshot-3.png',
+                '/peter-resume-2026/portfolio/jihfeng/jihfeng-screenshot-4.png',
+                '/peter-resume-2026/portfolio/jihfeng/jihfeng-screenshot-5.png',
+                '/peter-resume-2026/portfolio/jihfeng/jihfeng-screenshot-6.png',
             ],
             feature: [
                 {
@@ -120,18 +120,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Swiper.js', 'GSAP.js', 'AOS.js', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-1.jpeg',
-                '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-2.jpeg',
-                '/peter-resume-2026/src/assets/portfolio/jihfeng/jihfeng-3.jpeg',
+                '/peter-resume-2026/portfolio/jihfeng/jihfeng-1.jpeg',
+                '/peter-resume-2026/portfolio/jihfeng/jihfeng-2.jpeg',
+                '/peter-resume-2026/portfolio/jihfeng/jihfeng-3.jpeg',
             ],
         },
         // 奇正智能
         {
             title: '奇正智能',
             id: 'keycheng',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-square.png',
+            squareBg: '/peter-resume-2026/portfolio/keycheng/keycheng-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-banner.png',
+                bg: '/peter-resume-2026/portfolio/keycheng/keycheng-banner.png',
                 creationTime: '2025.07',
                 link: {
                     id: 88915427,
@@ -141,12 +141,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-screenshot-6.png',
+                '/peter-resume-2026/portfolio/keycheng/keycheng-screenshot-1.png',
+                '/peter-resume-2026/portfolio/keycheng/keycheng-screenshot-2.png',
+                '/peter-resume-2026/portfolio/keycheng/keycheng-screenshot-3.png',
+                '/peter-resume-2026/portfolio/keycheng/keycheng-screenshot-4.png',
+                '/peter-resume-2026/portfolio/keycheng/keycheng-screenshot-5.png',
+                '/peter-resume-2026/portfolio/keycheng/keycheng-screenshot-6.png',
             ],
             feature: [
                 {
@@ -225,19 +225,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 'Wordpress',
             ],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-1.png',
-                '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-2.png',
-                '/peter-resume-2026/src/assets/portfolio/keycheng/keycheng-3.png',
+                '/peter-resume-2026/portfolio/keycheng/keycheng-1.png',
+                '/peter-resume-2026/portfolio/keycheng/keycheng-2.png',
+                '/peter-resume-2026/portfolio/keycheng/keycheng-3.png',
             ],
         },
         // 宸曜國際醫療
         {
             title: '宸曜國際醫療',
             id: 'globalgclinic',
-            squareBg:
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-square.png',
+            squareBg: '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-banner.jpeg',
+                bg: '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-banner.jpeg',
                 creationTime: '2025.04',
                 link: {
                     id: 94147411,
@@ -247,12 +246,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-screenshot-6.png',
+                '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-screenshot-1.png',
+                '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-screenshot-2.png',
+                '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-screenshot-3.png',
+                '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-screenshot-4.png',
+                '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-screenshot-5.png',
+                '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-screenshot-6.png',
             ],
             feature: [
                 {
@@ -282,18 +281,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Tailwind', 'Swiper.js', 'GSAP.js', 'AOS.js', 'Vite', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-1.jpeg',
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-2.jpeg',
-                '/peter-resume-2026/src/assets/portfolio/globalgclinic/globalgclinic-3.jpg',
+                '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-1.jpeg',
+                '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-2.jpeg',
+                '/peter-resume-2026/portfolio/globalgclinic/globalgclinic-3.jpg',
             ],
         },
         // 緯安實業
         {
             title: '緯安實業',
             id: 'penlux',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/penlux/penlux-square.png',
+            squareBg: '/peter-resume-2026/portfolio/penlux/penlux-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/penlux/penlux-banner.jpg',
+                bg: '/peter-resume-2026/portfolio/penlux/penlux-banner.jpg',
                 creationTime: '2024.08',
                 link: {
                     id: 10120497,
@@ -303,12 +302,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/penlux/penlux-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/penlux/penlux-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/penlux/penlux-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/penlux/penlux-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/penlux/penlux-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/penlux/penlux-screenshot-6.png',
+                '/peter-resume-2026/portfolio/penlux/penlux-screenshot-1.png',
+                '/peter-resume-2026/portfolio/penlux/penlux-screenshot-2.png',
+                '/peter-resume-2026/portfolio/penlux/penlux-screenshot-3.png',
+                '/peter-resume-2026/portfolio/penlux/penlux-screenshot-4.png',
+                '/peter-resume-2026/portfolio/penlux/penlux-screenshot-5.png',
+                '/peter-resume-2026/portfolio/penlux/penlux-screenshot-6.png',
             ],
             feature: [
                 {
@@ -332,18 +331,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Bootstrap', 'SCSS', 'Swiper.js', 'AOS.js', 'Webpack', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/penlux/penlux-1.png',
-                '/peter-resume-2026/src/assets/portfolio/penlux/penlux-2.png',
-                '/peter-resume-2026/src/assets/portfolio/penlux/penlux-3.png',
+                '/peter-resume-2026/portfolio/penlux/penlux-1.png',
+                '/peter-resume-2026/portfolio/penlux/penlux-2.png',
+                '/peter-resume-2026/portfolio/penlux/penlux-3.png',
             ],
         },
         // 英爵醫美
         {
             title: '英爵醫美',
             id: 'wbeauty',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-square.png',
+            squareBg: '/peter-resume-2026/portfolio/wbeauty/wbeauty-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-banner.jpg',
+                bg: '/peter-resume-2026/portfolio/wbeauty/wbeauty-banner.jpg',
                 creationTime: '2025.08',
                 link: {
                     id: 81452791,
@@ -353,12 +352,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-screenshot-6.png',
+                '/peter-resume-2026/portfolio/wbeauty/wbeauty-screenshot-1.png',
+                '/peter-resume-2026/portfolio/wbeauty/wbeauty-screenshot-2.png',
+                '/peter-resume-2026/portfolio/wbeauty/wbeauty-screenshot-3.png',
+                '/peter-resume-2026/portfolio/wbeauty/wbeauty-screenshot-4.png',
+                '/peter-resume-2026/portfolio/wbeauty/wbeauty-screenshot-5.png',
+                '/peter-resume-2026/portfolio/wbeauty/wbeauty-screenshot-6.png',
             ],
             feature: [
                 {
@@ -386,18 +385,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Swiper.js', 'AOS.js', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-1.jpg',
-                '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-2.jpg',
-                '/peter-resume-2026/src/assets/portfolio/wbeauty/wbeauty-3.jpg',
+                '/peter-resume-2026/portfolio/wbeauty/wbeauty-1.jpg',
+                '/peter-resume-2026/portfolio/wbeauty/wbeauty-2.jpg',
+                '/peter-resume-2026/portfolio/wbeauty/wbeauty-3.jpg',
             ],
         },
         // 三一照明科技
         {
             title: '三一照明科技',
             id: 'citinova',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/citinova/citinova-square.png',
+            squareBg: '/peter-resume-2026/portfolio/citinova/citinova-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/citinova/citinova-banner.jpg',
+                bg: '/peter-resume-2026/portfolio/citinova/citinova-banner.jpg',
                 creationTime: '2024.01',
                 link: {
                     id: 40120350,
@@ -407,12 +406,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/citinova/citinova-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/citinova/citinova-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/citinova/citinova-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/citinova/citinova-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/citinova/citinova-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/citinova/citinova-screenshot-6.png',
+                '/peter-resume-2026/portfolio/citinova/citinova-screenshot-1.png',
+                '/peter-resume-2026/portfolio/citinova/citinova-screenshot-2.png',
+                '/peter-resume-2026/portfolio/citinova/citinova-screenshot-3.png',
+                '/peter-resume-2026/portfolio/citinova/citinova-screenshot-4.png',
+                '/peter-resume-2026/portfolio/citinova/citinova-screenshot-5.png',
+                '/peter-resume-2026/portfolio/citinova/citinova-screenshot-6.png',
             ],
             feature: [
                 {
@@ -450,18 +449,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Bootstrap', 'SCSS', 'Swiper.js', 'Webpack', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/citinova/citinova-1.jpg',
-                '/peter-resume-2026/src/assets/portfolio/citinova/citinova-2.jpg',
-                '/peter-resume-2026/src/assets/portfolio/citinova/citinova-3.png',
+                '/peter-resume-2026/portfolio/citinova/citinova-1.jpg',
+                '/peter-resume-2026/portfolio/citinova/citinova-2.jpg',
+                '/peter-resume-2026/portfolio/citinova/citinova-3.png',
             ],
         },
         // 鉅仁有限公司
         {
             title: '鉅仁有限公司',
             id: 'keiking',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/keiking/keiking-square.png',
+            squareBg: '/peter-resume-2026/portfolio/keiking/keiking-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/keiking/keiking-banner.jpeg',
+                bg: '/peter-resume-2026/portfolio/keiking/keiking-banner.jpeg',
                 creationTime: '2025.11',
                 link: {
                     id: 66417295,
@@ -471,12 +470,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/keiking/keiking-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/keiking/keiking-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/keiking/keiking-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/keiking/keiking-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/keiking/keiking-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/keiking/keiking-screenshot-6.png',
+                '/peter-resume-2026/portfolio/keiking/keiking-screenshot-1.png',
+                '/peter-resume-2026/portfolio/keiking/keiking-screenshot-2.png',
+                '/peter-resume-2026/portfolio/keiking/keiking-screenshot-3.png',
+                '/peter-resume-2026/portfolio/keiking/keiking-screenshot-4.png',
+                '/peter-resume-2026/portfolio/keiking/keiking-screenshot-5.png',
+                '/peter-resume-2026/portfolio/keiking/keiking-screenshot-6.png',
             ],
             feature: [
                 {
@@ -515,18 +514,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Swiper.js', 'GSAP.js', 'AOS.js', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/keiking/keiking-1.png',
-                '/peter-resume-2026/src/assets/portfolio/keiking/keiking-2.jpeg',
-                '/peter-resume-2026/src/assets/portfolio/keiking/keiking-3.jpeg',
+                '/peter-resume-2026/portfolio/keiking/keiking-1.png',
+                '/peter-resume-2026/portfolio/keiking/keiking-2.jpeg',
+                '/peter-resume-2026/portfolio/keiking/keiking-3.jpeg',
             ],
         },
         // 歌德森企業
         {
             title: '歌德森企業',
             id: 'avzone',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/avzone/avzone-square.png',
+            squareBg: '/peter-resume-2026/portfolio/avzone/avzone-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/avzone/avzone-banner.png',
+                bg: '/peter-resume-2026/portfolio/avzone/avzone-banner.png',
                 creationTime: '2024.04',
                 link: {
                     id: 21934257,
@@ -536,12 +535,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/avzone/avzone-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/avzone/avzone-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/avzone/avzone-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/avzone/avzone-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/avzone/avzone-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/avzone/avzone-screenshot-6.png',
+                '/peter-resume-2026/portfolio/avzone/avzone-screenshot-1.png',
+                '/peter-resume-2026/portfolio/avzone/avzone-screenshot-2.png',
+                '/peter-resume-2026/portfolio/avzone/avzone-screenshot-3.png',
+                '/peter-resume-2026/portfolio/avzone/avzone-screenshot-4.png',
+                '/peter-resume-2026/portfolio/avzone/avzone-screenshot-5.png',
+                '/peter-resume-2026/portfolio/avzone/avzone-screenshot-6.png',
             ],
             feature: [
                 {
@@ -565,19 +564,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Bootstrap', 'SCSS', 'Swiper.js', 'Webpack', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/avzone/avzone-1.png',
-                '/peter-resume-2026/src/assets/portfolio/avzone/avzone-2.png',
-                '/peter-resume-2026/src/assets/portfolio/avzone/avzone-3.png',
+                '/peter-resume-2026/portfolio/avzone/avzone-1.png',
+                '/peter-resume-2026/portfolio/avzone/avzone-2.png',
+                '/peter-resume-2026/portfolio/avzone/avzone-3.png',
             ],
         },
         // 蒔⽲⽇美學
         {
             title: '蒔⽲⽇美學',
             id: 'shihoriclinic',
-            squareBg:
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-square.png',
+            squareBg: '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-banner.png',
+                bg: '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-banner.png',
                 creationTime: '2025.05',
                 link: {
                     id: 65751452,
@@ -587,12 +585,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-screenshot-6.png',
+                '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-screenshot-1.png',
+                '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-screenshot-2.png',
+                '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-screenshot-3.png',
+                '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-screenshot-4.png',
+                '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-screenshot-5.png',
+                '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-screenshot-6.png',
             ],
             feature: [
                 {
@@ -610,18 +608,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Tailwind', 'Swiper.js', 'GSAP.js', 'Vite', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-1.png',
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-2.jpg',
-                '/peter-resume-2026/src/assets/portfolio/shihoriclinic/shihoriclinic-3.png',
+                '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-1.png',
+                '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-2.jpg',
+                '/peter-resume-2026/portfolio/shihoriclinic/shihoriclinic-3.png',
             ],
         },
         // 皓仁居家照顧
         {
             title: '皓仁居家照顧',
             id: 'haoren',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/haoren/haoren-square.png',
+            squareBg: '/peter-resume-2026/portfolio/haoren/haoren-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/haoren/haoren-banner.jpg',
+                bg: '/peter-resume-2026/portfolio/haoren/haoren-banner.jpg',
                 creationTime: '2023.11',
                 link: {
                     id: 46372245,
@@ -631,12 +629,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/haoren/haoren-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/haoren/haoren-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/haoren/haoren-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/haoren/haoren-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/haoren/haoren-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/haoren/haoren-screenshot-6.png',
+                '/peter-resume-2026/portfolio/haoren/haoren-screenshot-1.png',
+                '/peter-resume-2026/portfolio/haoren/haoren-screenshot-2.png',
+                '/peter-resume-2026/portfolio/haoren/haoren-screenshot-3.png',
+                '/peter-resume-2026/portfolio/haoren/haoren-screenshot-4.png',
+                '/peter-resume-2026/portfolio/haoren/haoren-screenshot-5.png',
+                '/peter-resume-2026/portfolio/haoren/haoren-screenshot-6.png',
             ],
             feature: [
                 {
@@ -666,18 +664,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Bootstrap', 'SCSS', 'jQuery', 'Swiper.js', 'AOS.js', 'Webpack', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/haoren/haoren-1.jpg',
-                '/peter-resume-2026/src/assets/portfolio/haoren/haoren-2.jpg',
-                '/peter-resume-2026/src/assets/portfolio/haoren/haoren-3.jpg',
+                '/peter-resume-2026/portfolio/haoren/haoren-1.jpg',
+                '/peter-resume-2026/portfolio/haoren/haoren-2.jpg',
+                '/peter-resume-2026/portfolio/haoren/haoren-3.jpg',
             ],
         },
         // 鼎富金融科技
         {
             title: '鼎富金融科技',
             id: 'dingfu',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-square.png',
+            squareBg: '/peter-resume-2026/portfolio/dingfu/dingfu-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-banner.png',
+                bg: '/peter-resume-2026/portfolio/dingfu/dingfu-banner.png',
                 creationTime: '2025.03',
                 link: {
                     id: 88997144,
@@ -687,12 +685,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-screenshot-6.png',
+                '/peter-resume-2026/portfolio/dingfu/dingfu-screenshot-1.png',
+                '/peter-resume-2026/portfolio/dingfu/dingfu-screenshot-2.png',
+                '/peter-resume-2026/portfolio/dingfu/dingfu-screenshot-3.png',
+                '/peter-resume-2026/portfolio/dingfu/dingfu-screenshot-4.png',
+                '/peter-resume-2026/portfolio/dingfu/dingfu-screenshot-5.png',
+                '/peter-resume-2026/portfolio/dingfu/dingfu-screenshot-6.png',
             ],
             feature: [
                 {
@@ -706,18 +704,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Tailwind', 'Swiper.js', 'AOS.js', 'Vite', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-1.png',
-                '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-2.png',
-                '/peter-resume-2026/src/assets/portfolio/dingfu/dingfu-3.png',
+                '/peter-resume-2026/portfolio/dingfu/dingfu-1.png',
+                '/peter-resume-2026/portfolio/dingfu/dingfu-2.png',
+                '/peter-resume-2026/portfolio/dingfu/dingfu-3.png',
             ],
         },
         // 佳捷生技
         {
             title: '佳捷生技',
             id: 'sitepartner',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-square.png',
+            squareBg: '/peter-resume-2026/portfolio/sitepartner/sitepartner-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-banner.png',
+                bg: '/peter-resume-2026/portfolio/sitepartner/sitepartner-banner.png',
                 creationTime: '2024.07',
                 link: {
                     id: 35378410,
@@ -727,12 +725,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-screenshot-6.png',
+                '/peter-resume-2026/portfolio/sitepartner/sitepartner-screenshot-1.png',
+                '/peter-resume-2026/portfolio/sitepartner/sitepartner-screenshot-2.png',
+                '/peter-resume-2026/portfolio/sitepartner/sitepartner-screenshot-3.png',
+                '/peter-resume-2026/portfolio/sitepartner/sitepartner-screenshot-4.png',
+                '/peter-resume-2026/portfolio/sitepartner/sitepartner-screenshot-5.png',
+                '/peter-resume-2026/portfolio/sitepartner/sitepartner-screenshot-6.png',
             ],
             feature: [
                 {
@@ -750,18 +748,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Bootstrap', 'SCSS', 'Swiper.js', 'AOS.js', 'Webpack', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-1.jpg',
-                '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-2.jpg',
-                '/peter-resume-2026/src/assets/portfolio/sitepartner/sitepartner-3.jpg',
+                '/peter-resume-2026/portfolio/sitepartner/sitepartner-1.jpg',
+                '/peter-resume-2026/portfolio/sitepartner/sitepartner-2.jpg',
+                '/peter-resume-2026/portfolio/sitepartner/sitepartner-3.jpg',
             ],
         },
         // 岦盛鋼鐵
         {
             title: '岦盛鋼鐵',
             id: 'bfvsteel',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-square.png',
+            squareBg: '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-banner.png',
+                bg: '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-banner.png',
                 creationTime: '2023.11',
                 link: {
                     id: 99241057,
@@ -771,12 +769,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-screenshot-6.png',
+                '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-screenshot-1.png',
+                '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-screenshot-2.png',
+                '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-screenshot-3.png',
+                '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-screenshot-4.png',
+                '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-screenshot-5.png',
+                '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-screenshot-6.png',
             ],
             feature: [
                 {
@@ -792,18 +790,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Bootstrap', 'SCSS', 'jQuery', 'Swiper.js', 'Webpack', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-1.jpg',
-                '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-2.jpg',
-                '/peter-resume-2026/src/assets/portfolio/bfvsteel/bfvsteel-3.jpg',
+                '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-1.jpg',
+                '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-2.jpg',
+                '/peter-resume-2026/portfolio/bfvsteel/bfvsteel-3.jpg',
             ],
         },
         // 翊志有限公司
         {
             title: '翊志有限公司',
             id: 'yijhih',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-square.png',
+            squareBg: '/peter-resume-2026/portfolio/yijhih/yijhih-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-banner.png',
+                bg: '/peter-resume-2026/portfolio/yijhih/yijhih-banner.png',
                 creationTime: '2024.06',
                 link: {
                     id: 51348720,
@@ -813,12 +811,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-screenshot-6.png',
+                '/peter-resume-2026/portfolio/yijhih/yijhih-screenshot-1.png',
+                '/peter-resume-2026/portfolio/yijhih/yijhih-screenshot-2.png',
+                '/peter-resume-2026/portfolio/yijhih/yijhih-screenshot-3.png',
+                '/peter-resume-2026/portfolio/yijhih/yijhih-screenshot-4.png',
+                '/peter-resume-2026/portfolio/yijhih/yijhih-screenshot-5.png',
+                '/peter-resume-2026/portfolio/yijhih/yijhih-screenshot-6.png',
             ],
             feature: [
                 {
@@ -838,18 +836,18 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Bootstrap', 'SCSS', 'Swiper.js', 'Webpack', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-1.png',
-                '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-2.jpg',
-                '/peter-resume-2026/src/assets/portfolio/yijhih/yijhih-3.jpg',
+                '/peter-resume-2026/portfolio/yijhih/yijhih-1.png',
+                '/peter-resume-2026/portfolio/yijhih/yijhih-2.jpg',
+                '/peter-resume-2026/portfolio/yijhih/yijhih-3.jpg',
             ],
         },
         // AZUMI
         {
             title: 'AZUMI',
             id: 'azumi',
-            squareBg: '/peter-resume-2026/src/assets/portfolio/azumi/azumi-square.png',
+            squareBg: '/peter-resume-2026/portfolio/azumi/azumi-square.png',
             banner: {
-                bg: '/peter-resume-2026/src/assets/portfolio/azumi/azumi-banner.png',
+                bg: '/peter-resume-2026/portfolio/azumi/azumi-banner.png',
                 creationTime: '2024.02',
                 link: {
                     id: 88413027,
@@ -859,12 +857,12 @@ export const usePortfolioData = defineStore('portfolioData', () => {
                 },
             },
             screenShot: [
-                '/peter-resume-2026/src/assets/portfolio/azumi/azumi-screenshot-1.png',
-                '/peter-resume-2026/src/assets/portfolio/azumi/azumi-screenshot-2.png',
-                '/peter-resume-2026/src/assets/portfolio/azumi/azumi-screenshot-3.png',
-                '/peter-resume-2026/src/assets/portfolio/azumi/azumi-screenshot-4.png',
-                '/peter-resume-2026/src/assets/portfolio/azumi/azumi-screenshot-5.png',
-                '/peter-resume-2026/src/assets/portfolio/azumi/azumi-screenshot-6.png',
+                '/peter-resume-2026/portfolio/azumi/azumi-screenshot-1.png',
+                '/peter-resume-2026/portfolio/azumi/azumi-screenshot-2.png',
+                '/peter-resume-2026/portfolio/azumi/azumi-screenshot-3.png',
+                '/peter-resume-2026/portfolio/azumi/azumi-screenshot-4.png',
+                '/peter-resume-2026/portfolio/azumi/azumi-screenshot-5.png',
+                '/peter-resume-2026/portfolio/azumi/azumi-screenshot-6.png',
             ],
             feature: [
                 {
@@ -882,9 +880,9 @@ export const usePortfolioData = defineStore('portfolioData', () => {
             ],
             skills: ['Bootstrap', 'SCSS', 'Swiper.js', 'Webpack', 'Wordpress'],
             imgs: [
-                '/peter-resume-2026/src/assets/portfolio/azumi/azumi-1.png',
-                '/peter-resume-2026/src/assets/portfolio/azumi/azumi-2.png',
-                '/peter-resume-2026/src/assets/portfolio/azumi/azumi-3.png',
+                '/peter-resume-2026/portfolio/azumi/azumi-1.png',
+                '/peter-resume-2026/portfolio/azumi/azumi-2.png',
+                '/peter-resume-2026/portfolio/azumi/azumi-3.png',
             ],
         },
     ]

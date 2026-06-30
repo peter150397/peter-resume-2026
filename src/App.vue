@@ -15,11 +15,11 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 const globalData = useGlobalData();
 
 onMounted(() => {
-    gsap.registerPlugin(ScrollTrigger,ScrollSmoother);
+    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
     ScrollSmoother.create({
-        smooth: 1,
-        speed: 0.5,
+        smooth: 2,
+        smoothTouch: 0.1,
         effects: true,
     });
 });
@@ -36,6 +36,4 @@ onMounted(() => {
     </main>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
