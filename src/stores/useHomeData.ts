@@ -81,8 +81,8 @@ export const useHomeData = defineStore('homeData', () => {
         },
         {
             id: 5937,
-            title: 'Sass',
-            img: '/peter-resume-2026/skill/Sass.png',
+            title: 'TypeScript',
+            img: '/peter-resume-2026/skill/TypeScript.png',
         },
         {
             id: 6112,
