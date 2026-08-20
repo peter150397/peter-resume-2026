@@ -1,26 +1,22 @@
 <template>
-    <HomeBanner :homeBanner="homeData.homeBanner" />
+    <HomeBanner />
 
-    <HomeService :homeService="homeData.homeService" />
+    <HomeService />
 
-    <HomeSkill :homeSkill="homeData.homeSkill" />
+    <HomeSkill />
 
-    <HomeTimeline :homeTimeline="homeData.homeTimeline" />
+    <HomeTimeline />
 
-    <HomePortfolio :homePortfolioID="homeData.homePortfolioID" />
+    <HomePortfolio />
 </template>
 
 <script setup lang="ts">
 // Template
-import HomeBanner from '@/components/templates/HomeBanner.vue';
-import HomeService from '@/components/templates/HomeService.vue';
-import HomeSkill from '@/components/templates/HomeSkill.vue';
-import HomeTimeline from '@/components/templates/HomeTimeline.vue';
-import HomePortfolio from '@/components/templates/HomePortfolio.vue';
-
-// Pinia
-import { useHomeData } from '@/stores/useHomeData';
-const homeData = useHomeData();
+import HomeBanner from "@/components/templates/HomeBanner.vue"
+import HomeService from "@/components/templates/HomeService.vue"
+import HomeSkill from "@/components/templates/HomeSkill.vue"
+import HomeTimeline from "@/components/templates/HomeTimeline.vue"
+import HomePortfolio from "@/components/templates/HomePortfolio.vue"
 </script>
 
 <style scoped></style>

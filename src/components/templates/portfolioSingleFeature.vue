@@ -1,22 +1,30 @@
 <script setup lang="ts">
-import SplitTextTitle from '@/components/atoms/SplitTextTitle.vue';
+import SplitTextTitle from '@/components/atoms/SplitTextTitle.vue'
 
-import type { Portfolio } from "@/types/type";
+import type { Portfolio } from '@/types/type'
 const props = defineProps<{
-    feature: Portfolio["feature"],
+    feature: Portfolio['feature']
 }>()
 </script>
 
 <template>
     <section class="container sm:py-25 py-15" id="portfolio-single-feature">
-        <SplitTextTitle :trigger="'#portfolio-single-feature'" :ele="'h4'" :title="'Feature'" class="" />
-        <SplitTextTitle :trigger="'#portfolio-single-feature'" :ele="'h2'" :title="'網站特色'" class="sm:mb-15 mb-10" />
+        <SplitTextTitle trigger="#portfolio-single-feature" ele="h4" title="Feature" class="" />
+        <SplitTextTitle
+            trigger="#portfolio-single-feature"
+            ele="h2"
+            title="網站特色"
+            class="sm:mb-15 mb-10"
+        />
         <div class="grid sm:grid-cols-12 gap-x-6 md:gap-y-25 sm:gap-y-15 gap-y-6 items-start">
             <template v-for="(item, index) in props.feature" :key="index">
                 <div class="sm:col-span-4">
                     <p class="h5">{{ item.title }}</p>
                 </div>
-                <div class="sm:col-span-8 sm:mb-0 mb-9 portfolio-single-flex-content" v-html="item.content"></div>
+                <div
+                    class="sm:col-span-8 sm:mb-0 mb-9 portfolio-single-flex-content"
+                    v-html="item.content"
+                ></div>
             </template>
         </div>
     </section>

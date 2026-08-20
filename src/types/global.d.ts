@@ -1,7 +1,8 @@
 declare interface Link {
-    id: number;
-    isExternal: boolean;
-    text: string;
-    url: string;
-    icon?: string;
+    created_at: string
+    id: number
+    is_external: boolean
+    text: string
+    url: string
+    icon?: string
 }

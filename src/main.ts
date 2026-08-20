@@ -6,6 +6,9 @@ import router from './router'
 
 import './style.css'
 
+import 'swiper/css'
+import 'swiper/css/navigation'
+
 const app = createApp(App)
 
 app.use(createPinia())

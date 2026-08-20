@@ -1,62 +1,85 @@
 // Header
 export interface Header {
-    logo: string,
-    moreWorkLink: Link,
+    created_at: string
+    id: number
+    logo: string
+    more_work: {
+        is_external: boolean
+        text: string
+        url: string
+    }
 }
 
 // Footer
 export interface Footer {
-    topTitle: string,
-    moreWorkLink: Link,
-    logo: string,
-    aboutMe: string,
-    contact: Link[],
-    copyright: string,
+    about_me: string
+    copyright: string
+    created_at: string
+    id: number
+    logo: string
+    more_work: {
+        is_external: boolean
+        text: string
+        url: string
+    }
+    top_title: string
 }
 
 // Home
-export interface HomeBanner{
-    content: string,
-    img: string,
-    moreWorkLink: Link,
+export interface HomeBanner {
+    id: number
+    created_at: string
+    content: string
+    image: string
+    more_work: {
+        is_external: boolean
+        text: string
+        url: string
+    }
     cursor: string[]
 }
-export interface HomeServiceItem{
-    id: number,
-    title: string,
-    content: string,
-    img: string,
+export interface HomeServiceItem {
+    id: number
+    created_at: string
+    title: string
+    content: string
+    image: string
 }
-export interface HomeSkillItem{
-    id: number,
-    title: string,
-    img: string,
+export interface HomeSkillItem {
+    id: number
+    created_at: string
+    title: string
+    image: string
 }
-export interface HomeTimelineItem{
-    id: number,
-    time: string,
-    title: string,
-    company: string,
-    img: string
+export interface HomeTimelineItem {
+    id: number
+    created_at: string
+    time: string
+    title: string
+    company: string
+    image: string
 }
 
 // Portfolio
-export interface Portfolio{
-    title: string,
-    id: string,
-    squareBg: string,
+export interface Portfolio {
+    id: string
+    created_at: string
+    title: string
+    square_bg: string
     banner: {
-        bg: string,
-        creationTime: string,
-        link: Link,
-    },
-    screenShot: string[],
+        bg: string
+        creation_time: string
+        link: {
+            is_external: boolean
+            text: string
+            url: string
+        }
+    }
+    screen_shot: string[]
     feature: {
-        title: string,
+        title: string
         content: string
-    }[],
-    skills: string[],
-    imgs: string[],
+    }[]
+    skills: string[]
+    images: string[]
 }
-
-// Portfolio Single
