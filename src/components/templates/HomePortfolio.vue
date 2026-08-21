@@ -10,6 +10,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 // conposables
 import useAxios from "@/utils/useAxios"
 const axios = useAxios()
+import { useLoading } from "@/stores/useLoading"
+const loading = useLoading()
 
 // Pinia
 import { usePortfolioData } from "@/stores/usePortfolioData"
@@ -35,7 +37,9 @@ const getData = async () => {
 }
 
 onMounted(async () => {
+    loading.changeLoading(true)
     await getData()
+    loading.changeLoading(false)
 
     if (!homePortfolioEle.value || !homePortfolioContainerEle.value) return
     const portfolioElWidth = homePortfolioEle.value.getBoundingClientRect().width - 48

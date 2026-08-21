@@ -1,7 +1,6 @@
 // Vue
-import { ref, watch } from "vue"
+import { ref } from "vue"
 import { defineStore } from "pinia"
-import type { Portfolio } from "@/types/type"
 // conposables
 import useAxios from "@/utils/useAxios"
 const axios = useAxios()
@@ -26,10 +25,7 @@ interface OriginPortfolio {
 }
 
 export const usePortfolioData = defineStore("portfolioData", () => {
-    const portfolios = ref<Portfolio[]>([])
-
     const portfolioPerPage: number = 6
-    const currentPage = ref<number>(0)
     const totalPage = ref<number>(0)
 
     const getPortfoliosByPage = async (page: number) => {
@@ -45,7 +41,7 @@ export const usePortfolioData = defineStore("portfolioData", () => {
         const totalPortfolios = Number(res.headers["content-range"]?.split("/")[1])
         totalPage.value = Math.ceil(totalPortfolios / portfolioPerPage)
 
-        portfolios.value = res.data.map((data: OriginPortfolio) => {
+        return res.data.map((data: OriginPortfolio) => {
             return {
                 id: data.id,
                 created_at: data.created_at,
@@ -97,14 +93,9 @@ export const usePortfolioData = defineStore("portfolioData", () => {
         }
     }
 
-    watch(currentPage, async (newVal) => {
-        await getPortfoliosByPage(newVal)
-    })
-
     return {
-        portfolios,
         totalPage,
-        currentPage,
         getSinglePortfolio,
+        getPortfoliosByPage,
     }
 })

@@ -17,6 +17,8 @@ import type { HomeTimelineItem } from "@/types/type"
 // conposables
 import useAxios from "@/utils/useAxios"
 const axios = useAxios()
+import { useLoading } from "@/stores/useLoading"
+const loading = useLoading()
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -31,7 +33,9 @@ const homeTimelineModules: SwiperModule[] = [Navigation]
 const homeExperienceSwiperEle = useTemplateRef("home-experience-swiper")
 
 onMounted(async () => {
+    loading.changeLoading(true)
     await getData()
+    loading.changeLoading(false)
 
     if (!homeExperienceSwiperEle.value) return
 

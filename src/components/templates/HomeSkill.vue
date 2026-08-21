@@ -12,6 +12,8 @@ import type { HomeSkillItem } from "@/types/type"
 // conposables
 import useAxios from "@/utils/useAxios"
 const axios = useAxios()
+import { useLoading } from "@/stores/useLoading"
+const loading = useLoading()
 
 gsap.registerPlugin(DrawSVGPlugin, ScrollTrigger)
 const gsapBreakPoints = gsap.matchMedia()
@@ -42,7 +44,9 @@ const homeSkillLoadingPath = [
 ]
 
 onMounted(async () => {
+    loading.changeLoading(true)
     await getData()
+    loading.changeLoading(false)
 
     if (!homeSkillEle.value || !homeSkillArrayEle.value) return
 

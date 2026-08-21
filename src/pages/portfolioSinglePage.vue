@@ -12,6 +12,8 @@ const route = useRoute()
 // Pinia
 import { usePortfolioData } from "@/stores/usePortfolioData"
 const portfolioData = usePortfolioData()
+import { useLoading } from "@/stores/useLoading"
+const loading = useLoading()
 // Type
 import type { Portfolio } from "@/types/type"
 
@@ -23,7 +25,9 @@ watch(
         const currentId = ref(Array.isArray(newVal) ? newVal[0] : newVal)
 
         if (currentId.value) {
+            loading.changeLoading(true)
             currentPortfolio.value = await portfolioData.getSinglePortfolio(currentId.value)
+            loading.changeLoading(false)
         }
     },
     {

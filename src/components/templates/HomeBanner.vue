@@ -11,6 +11,8 @@ import type { HomeBanner } from "@/types/type"
 // conposables
 import useAxios from "@/utils/useAxios"
 const axios = useAxios()
+import { useLoading } from "@/stores/useLoading"
+const loading = useLoading()
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin)
 
@@ -36,7 +38,9 @@ const homeBannerEle = useTemplateRef("home-banner")
 const homeBannerChangeTextEle = useTemplateRef("home-banner-change-text")
 
 onMounted(async () => {
+    loading.changeLoading(true)
     await getData()
+    loading.changeLoading(false)
 
     if (data.value) {
         gsap.to(homeBannerEle.value, {

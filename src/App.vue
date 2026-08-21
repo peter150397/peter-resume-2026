@@ -1,13 +1,14 @@
 <script setup lang="ts">
 // Component
-import TheFooter from '@/components/organisms/TheFooter.vue'
-import TheHeader from '@/components/organisms/TheHeader.vue'
+import TheFooter from "@/components/organisms/TheFooter.vue"
+import TheHeader from "@/components/organisms/TheHeader.vue"
 // Vue
-import { onMounted } from 'vue'
+import { onMounted } from "vue"
 // Gsap
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { ScrollSmoother } from 'gsap/ScrollSmoother'
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { ScrollSmoother } from "gsap/ScrollSmoother"
+import TheLoading from "./components/atoms/TheLoading.vue"
 
 onMounted(() => {
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
@@ -21,6 +22,7 @@ onMounted(() => {
 </script>
 
 <template>
+    <TheLoading />
     <div class="fixed top-0 left-0 w-screen h-screen">
         <img
             src="@/assets/default/website-bg.jpg"

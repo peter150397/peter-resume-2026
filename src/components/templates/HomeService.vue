@@ -12,6 +12,8 @@ import type { HomeServiceItem } from "@/types/type"
 // conposables
 import useAxios from "@/utils/useAxios"
 const axios = useAxios()
+import { useLoading } from "@/stores/useLoading"
+const loading = useLoading()
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
@@ -30,7 +32,9 @@ ScrollTrigger.config({
     ignoreMobileResize: true,
 })
 onMounted(async () => {
+    loading.changeLoading(true)
     await getData()
+    loading.changeLoading(false)
 
     document.fonts.ready.then(() => {
         if (
